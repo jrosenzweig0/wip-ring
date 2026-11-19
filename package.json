@@ -10,7 +10,7 @@
     "test:update": "./scripts/test.sh --update"
   },
   "dependencies": {
-    "fairy-ring": "^0.2.0"
+    "fairy-ring": "^0.2.2"
   },
   "devDependencies": {
     "@vitest/browser-playwright": "^5.1.1",
