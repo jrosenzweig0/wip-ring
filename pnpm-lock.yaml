@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       fairy-ring:
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^0.2.2
+        version: 0.2.2
     devDependencies:
       '@vitest/browser-playwright':
         specifier: ^5.1.1
@@ -362,8 +362,8 @@ packages:
     resolution: {integrity: sha512-KfYbmpRm0VbLjEvVa9yGwCi9GI34xvi7A/HXYWQO65CSD2u3MczUJSuwXKFIxlGsgBQizV9q5J9NHj4VG0n+pA==}
     engines: {node: '>=12.0.0'}
 
-  fairy-ring@0.2.0:
-    resolution: {integrity: sha512-ATqsFOaBK5X6ACGUxLFhTJ9J2J9rOV6uQCDH52C4CNCx067BZsCERD/bEm/5iP81XmXX1R7bsMd/nOfrK8jkbA==}
+  fairy-ring@0.2.2:
+    resolution: {integrity: sha512-9RibKDvgCt4ZtneOQl0Jqz+w1JBDg5c1vpfhFd35tRdGug+p+LILC/QXYm6L3vssjzY9arFj5gEa+YA5oSjlXg==}
     peerDependencies:
       react: ^19.0.0
       solid-js: ^2.0.0
@@ -941,7 +941,7 @@ snapshots:
 
   expect-type@1.4.0: {}
 
-  fairy-ring@0.2.0:
+  fairy-ring@0.2.2:
     dependencies:
       '@lit/task': 1.0.3
       lit: 3.3.3
