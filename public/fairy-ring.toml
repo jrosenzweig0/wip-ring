@@ -1,0 +1,17 @@
+# the webring config, published at https://<pages-host>/fairy-ring.toml.
+# reference: https://fairy-ring.loga.nz/?path=/story/docs-config--config
+configVersion = 1
+name = { en = "wip ring" }
+
+# placeholder members. replace with real sites.
+[[sites]]
+url = "https://alice.example.com"
+scope = "host"
+
+[[sites]]
+url = "https://bob.example.net"
+scope = "host"
+
+[[sites]]
+url = "https://carol.example.org"
+scope = "host"
