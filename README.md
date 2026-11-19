@@ -6,10 +6,10 @@ members can use this snippet to embed the ring:
 
 ```html
 <script type="module" src="https://cdn.jsdelivr.net/npm/fairy-ring@0.2/dist/standalone.js"></script>
-<link rel="stylesheet" href="https://ring.loga.nz/wip-ring/fairy-ring.css" />
+<link rel="stylesheet" href="https://ring.loga.nz/fairy-ring.css" />
 <fairy-ring
   class="wip-ring"
-  config-url="https://ring.loga.nz/wip-ring/fairy-ring.toml"
+  config-url="https://ring.loga.nz/fairy-ring.toml"
 ></fairy-ring>
 ```
 
