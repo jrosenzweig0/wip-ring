@@ -1,26 +1,9 @@
-/* the ring's shared theme, published at https://loganzartman.github.io/wip-ring/fairy-ring.css.
-   members load it with <link rel="stylesheet"> and add class="wip-ring" to <fairy-ring>.
-   reference: https://fairy-ring.loga.nz/?path=/story/docs-theming--theming */
 .wip-ring {
-  --wip-yellow: #f5c518;
-  --wip-black: #1d1d1b;
   width: fit-content;
   padding: 0.5em 1em;
-  border: 0.375em solid;
-  border-image: repeating-linear-gradient(
-      -45deg,
-      var(--wip-yellow) 0 0.5em,
-      var(--wip-black) 0.5em 1em
-    )
-    1;
-  background: var(--wip-black);
-  color: var(--wip-yellow);
-  font-family: ui-monospace, monospace;
 
   &::part(home) {
     font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
   }
   &::part(link) {
     text-decoration-style: dashed;
