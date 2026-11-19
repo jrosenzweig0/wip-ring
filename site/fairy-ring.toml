@@ -14,3 +14,7 @@ scope = "host"
 [[sites]]
 url = "https://www.sysnet.ucsd.edu/~abellon/"
 scope = "path"
+
+[[sites]]
+url = "https://multi-chess.com/"
+scope = "host"
